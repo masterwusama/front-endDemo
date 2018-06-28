@@ -20,4 +20,6 @@
 
 [ES6入门](http://es6.ruanyifeng.com/#docs)
 
-[WEBPACK+VUE搭建项目](https://segmentfault.com/a/1190000009466326)
+[WEBPACK+VUE搭建](https://segmentfault.com/a/1190000009466326)
+
+[VUE2搭建](https://www.jianshu.com/p/5ba253651c3b)
