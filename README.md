@@ -25,3 +25,5 @@
 [VUE2搭建](https://www.jianshu.com/p/5ba253651c3b)
 
 [VUE生命周期 钩子函数](https://segmentfault.com/a/1190000008010666)
+
+[VUE填坑](http://www.cnblogs.com/wisewrong/p/6344390.html)
