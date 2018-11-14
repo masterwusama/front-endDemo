@@ -49,7 +49,7 @@
             var li_ed = text.indexOf('</span></div></li>')+18;
             do{
               var liins = $(text.substr(li_st,li_ed-li_st))[0];
-              result += liins.children[0].defaultValue + "," + liins.innerText + "\r\n";
+              result += liins.children[0].defaultValue + "," + liins.children[1].attributes[5].nodeValue + "\r\n";
               resultx += liins.children[0].defaultValue + "\r\n";
               li_st = text.substr(li_ed).indexOf('<li><input name="id[]" value="') + li_ed;
               li_ed += text.substr(li_ed).indexOf('</span></div></li>')+18;
