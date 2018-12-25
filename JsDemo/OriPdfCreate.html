@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+<script>
+
+var createPdf = () => {
+    let newWindow = window.open("_blank"); 
+    let codestr = document.getElementById("test").innerHTML; 
+    newWindow.document.write(codestr);   
+    newWindow.document.close();     
+    newWindow.print();   
+    return true;
+}
+
+</script>
+<button onclick="createPdf()">print</button>
+<div id="test">
+    <span>
+        printed
+    </span>
+</div>
+<div>
+    not printed
+</div>
+</body>
+</html>
